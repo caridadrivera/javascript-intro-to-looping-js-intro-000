@@ -1,13 +1,12 @@
 function forLoop(array){
   for (let i = 0; i<25; i++) {
-  if (array[i] === 1){
-    return "I am 1 strange loop.";
-  }
+  if (array[i] === 1) return "I am 1 strange loop.";
     else {
-      return `I am [i] strange loops.`;
+      return `I am ${i} strange loops.`;
     }
+  }
 }
-}
+
 
 function whileLoop(number){
   while (number > 0){
